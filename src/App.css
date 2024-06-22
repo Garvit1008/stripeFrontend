@@ -1,0 +1,39 @@
+/* App.css */
+html, body{
+  overflow: hidden;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+  height: 100vh;
+  background-color: #ffffff;
+}
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  font-size: 24px; /* Example font size */
+}
+.plansCard-container{
+  margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  display: flex;
+  gap: 5vw;
+}
+
+/* .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  /* width: 100%; /* Ensure full width */
+  /* background: red;
+} */ 
